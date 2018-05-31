@@ -1,0 +1,429 @@
+#headingcontainer {
+    width: 100%;
+    background-color: #ffffff;
+    height: 80px;
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-color: #cccccc;
+
+
+}
+
+#indexname {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    position: relative;
+    font-size: 32px;
+    left: 300px;
+    padding: 10px;
+    bottom: -21px;
+    border: 1px solid grey;
+    border-radius: 1px;
+    
+
+}
+
+hr {
+    text-align: center;
+    position: relative;
+    right: 10px;
+
+}
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+#navigation {
+
+    float: right;
+    position: relative;
+    display: inline;
+    right: 310px;
+    top: 15px;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/assets/images/round.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-color: lightgray; 
+    
+}
+
+#wrapper {
+    background-color: white;
+    width: 960px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    
+}
+
+#content {
+    width: 960px;
+    
+    
+    top: 50px;
+    padding: 10px;
+
+}
+
+img {
+    width: 170px;
+    height: 230px;
+
+  
+}
+
+#propic {
+    border-radius: 2px;
+    border: 5px solid black;
+}
+
+p {
+    display: inline-block;
+    position: absolute;
+    float: right;
+    top: 10 px;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    padding: 5px;
+    
+     
+}
+
+#foot {
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 15px;
+    width: 1540px;
+    
+    
+
+
+}
+footer {
+    color: white;
+    width: 1559px;
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+    right: 315px;
+    padding: 10px;
+    
+    
+}
+/*Portfolio css starts here */
+
+
+#Portfolio-wrapper {
+    width: 960px;
+    background-color: #ffffff;
+    position: relative;
+    left: 300px;
+    height: 750px;
+
+    
+}
+
+#Pfoot{
+    position: relative;
+   
+    float: left;
+
+}
+
+#P1 {
+    padding: 10px;
+    float: left;
+    position: relative;
+    left: 20px;
+    width: 200px;
+    top: -300;
+    resize: both;
+    margin: 0 auto;
+
+}
+
+#P2 {
+    position: relative;
+    float: left;
+    left: 70px;
+    top: 200px;
+    margin: 0 auto;
+
+}
+
+#P3 {
+    position: relative;
+    right: 100px;
+    top: 12px;
+}
+
+#P4 {
+    position: relative;
+    left: -190px;
+    top: 18px;
+}
+
+#P5 {
+    position: relative;
+    left: 30px;
+    top: 50px;
+
+}
+
+    
+   
+
+#Portfolio-content {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    background-color: #ffffff;        
+    height: 950px;
+    
+       
+}
+
+h1 {
+    position: relative;
+    padding: 50px;
+
+}
+/*text in pictures*/
+
+
+.textinpic1 {
+    width: 153px;
+    position: absolute;
+    bottom: 80px;
+    right: 57px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    }
+
+ .textinpic2 {
+     width: 154px;
+     position: absolute;
+     bottom: 80px;
+     right: 16px;
+     background-color: #4aaaa5;
+     color: white;
+     text-align: center;
+ } 
+ 
+ .textinpic3 {
+     width: 153px;
+     position: absolute;
+     bottom: 80px;
+     left: 390px;
+     background-color: #4aaaa5;
+     color: white;
+     text-align: center;
+
+ }
+
+ .textinpic4 {
+    width: 153px;
+    position: absolute;
+    bottom: 40px;
+    left: 220px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+ }
+
+ .textinpic5 {
+    width: 170px;
+    position: absolute;
+    bottom: 100px;
+    
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+ }
+
+ /* start of Contact page css*/
+
+ #Contact-wrapper {
+    width: 960px;
+    background-color: #ffffff;
+    position: relative;
+    left: 300px;
+    height: 650px;
+}
+
+#Contact-content {
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    background-color: #ffffff;        
+    height: 200px;
+    text-align: left;
+    
+       
+}
+
+#contact-hr{
+    text-align: center;
+    position: relative;
+    left: 200 px;
+}
+
+#boxdiv {
+    position: absolute;
+    left: 50px;
+}
+
+#footsie {
+    position: relative;
+    left: -10px;
+    width: 100%;
+}
+
+/*resizing contact boxes and box properties*/
+#messagebox {
+    height: 150px;
+    width: 860px;
+    border: 1px solid #dddddd;
+
+}
+
+#emailbox {
+    width: 860px;
+    height: 30px;
+    border: 1px solid #dddddd;
+
+}
+
+#namebox {
+    width: 860px;
+    height: 30px;
+    border: 1px solid #dddddd;
+
+}
+
+#contacttxt {
+    padding: 30px;
+    
+}
+
+.button {
+    position: relative;
+    left: 50%;
+    height: 30px;
+    length: 90px;
+    background-color: #4aaaa5;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+/*homework 2 */
+
+@media screen (max-width: 980px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        
+    }
+    #headingcontainer {
+        margin: 0 auto;
+        float: left;
+    }
+    #indexname{
+        margin: 0 auto;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: white;
+        background-color: #4aaaa5;
+        float: left;
+        position: relative;
+        font-size: 32px;
+        left: 0;
+        padding: 0px;
+        bottom: -21px;
+        border: 1px solid grey;
+        border-radius: 1px;
+        
+    }
+
+    #navigation {
+
+        float: right;
+        position: relative;
+        display: inline;
+        right: 310px;
+        top: 15px;
+    }
+    
+
+    body {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    #wrapper {
+        width: 75%;
+    }
+
+    #foot {
+        margin: 0 auto;
+        position: relative;
+        top: 100px;
+        left: 15px;
+        width: 1540px;
+        
+        
+    
+    
+    }
+    footer {
+        color: white;
+        width: 100%;
+        background-color: #666666;
+        border-top: 10px solid #4aaaa5;
+        text-align: center;
+        margin-top: 70px;
+        position: relative;
+        right: 315px;
+        padding: 10px;
+        
+        
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 640px) {
+    
+}
+
